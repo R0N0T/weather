@@ -1,0 +1,99 @@
+.container {
+  text-align: center;
+  padding: 20px;
+  font-family: 'San Francisco Display', sans-serif;
+}
+
+body {
+  font-family: 'San Francisco Display', sans-serif;
+  background-color: #FF6AC2;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: #FFE5E5;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.temperature-unit {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #B931FC;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.temperature-unit:hover {
+  background-color: #5D12D2;
+}
+
+
+.cityInput {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.search-icon {
+  cursor: pointer;
+}
+
+.weather-image img {
+  max-width: 100px;
+  margin: 20px auto;
+}
+
+.weather-temp {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.weather-location {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.data-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  max-width: 40px;
+}
+
+.data {
+  margin-top: 10px;
+}
+
+.humidity-percent,
+.wind-rate {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 14px;
+  color: #777;
+}
